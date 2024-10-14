@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2 >Team Leaderboard</h2>
+        <table class="ranking-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team Name</th>
+                    <th>Score</th>
+                    <th>Current Level</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-rows">
+                <!-- Table rows will be dynamically updated by JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Pagination Controls -->
+        <div class="pagination">
+            <button class="pagination-btn" id="prev-page">Previous</button>
+            <span id="current-page">Page 1</span>
+            <button class="pagination-btn" id="next-page">Next</button>
+        </div>
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
