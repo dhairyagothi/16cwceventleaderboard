@@ -16,7 +16,7 @@ const teams = [
 
 // Pagination variables
 let currentPage = 1;
-const entriesPerPage = 10;
+const entriesPerPage = 5;
 const totalPages = Math.ceil(teams.length / entriesPerPage);
 
 // Function to display teams based on the current page

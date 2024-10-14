@@ -4,22 +4,34 @@ body {
     background-size: cover;
     color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     backdrop-filter: blur(3px);
 }
-
+.heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#logo{
+    height: 200px;
+}
 .container {
-    width: 80%;
+    width: 70%;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     font-size: large;
 }
+.container h2 {
+   text-align:  center;
+    margin-bottom: 20px;
+    font-size: x-large;
 
+}
 .ranking-table {
     width: 100%;
     margin-top: 20px;
