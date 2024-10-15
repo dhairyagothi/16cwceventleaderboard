@@ -51,7 +51,9 @@ body {
     height: 200px;
 }
 .container {
-    width: 70%;
+    width: 75% !important;
+    padding: 20px;
+    margin: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
