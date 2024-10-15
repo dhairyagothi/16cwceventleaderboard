@@ -1,17 +1,89 @@
 // Data for 12 teams (You can manually update the scores, levels, etc.)
 const teams = [
-    { "name": "Team Alpha", "score": 100, "level": 5, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Bravo", "score": 90, "level": 4, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Charlie", "score": 105, "level": 4, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Delta", "score": 150, "level": 3, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Echo", "score": 75, "level": 3, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Foxtrot", "score": 70, "level": 2, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Golf", "score": 65, "level": 2, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Hotel", "score": 60, "level": 1, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team India", "score": 55, "level": 1, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Juliett", "score": 50, "level": 1, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Kilo", "score": 48, "level": 1, "timestamp": "2024-10-16T13:30:00Z" },
-    { "name": "Team Lima", "score": 45, "level": 1, "timestamp": "2024-10-16T13:30:00Z" }
+    { "name": "phoenix",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+
+    { "name": "Fireball09",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+
+    { "name": "Tech_Titans",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "VITalize",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Sushanthxteam",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "PRAY_nixon",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Crackheads",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Sherlock_Homies4",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Maggicrypters",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Sparks",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Coconut_4",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Inferno_squad4",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Jugadu",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Error404_Found",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Quest_Masters",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "DecryptorsOnDuty",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Ctrl_Alt_Defeat",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Zero_Knowledge_Ninjas04",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Team_Mystery_Mavericks",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Team_Chokers",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Intellectual_09",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Golden_Quadrilateral",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "TT24",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Shield",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "POOKIE_HACKERS",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Cyberhead_007",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Team_ninjas2024",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Cyber_Squad07",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Shikari",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Nagshakti",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "socialcyphers",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "MCD_69420",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Meow_meow07",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "SPARK",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Cypher",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Predators",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Tech_Titans04",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "24Cr",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "PaceRunerz",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Gold_diggers4",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "1_stree_3_purush",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" },
+    
+    { "name": "Slackers",  "score":"0", "level":"0", "timestamp": "2024-10-16T13:30:00Z" }
+    
 ];
 
 // Pagination variables

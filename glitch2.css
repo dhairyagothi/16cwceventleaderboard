@@ -1,6 +1,14 @@
-/* .container2 {
+@media (max-width : 768px) {
+  body{
+    overflow-x: hidden;
+  }
+}
+
+
+.container2 {
     text-align: center;
-  } */
+    
+  } 
   
   .glitch2 {
     font-size: 5rem;
@@ -11,7 +19,11 @@
       0.025em 0.04em 0 #fffc00;
     animation: glitch 725ms infinite;
   }
-  
+  @media (max-width:768px) {
+    .glitch2{
+      font-size: 2rem;
+    }
+  }
   .glitch2 span {
     position: absolute;
     top: 0;
