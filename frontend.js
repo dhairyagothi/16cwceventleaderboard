@@ -90,7 +90,10 @@ const teams = [
 
     { "name": "DKD_Warriors",  "score":"0", "level":"0", "timestamp": "2024-10-16T09:00:00Z" },
 
-    { "name": "Black_shadow35",  "score":"0", "level":"0", "timestamp": "2024-10-16T09:00:00Z" }
+    { "name": "Black_shadow35",  "score":"0", "level":"0", "timestamp": "2024-10-16T09:00:00Z" },
+    { "name": "Blaze",  "score":"0", "level":"0", "timestamp": "2024-10-16T09:00:00Z" },
+    { "name": "royals",  "score":"0", "level":"0", "timestamp": "2024-10-16T09:00:00Z" },
+    { "name": "spardan",  "score":"0", "level":"0", "timestamp": "2024-10-16T09:00:00Z" }
     
 ];
 
